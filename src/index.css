@@ -1,0 +1,31 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.Todo-Container{
+    width:300px;
+    padding:10px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightslategray;
+    border-radius: 20px;
+}
+.todo-item{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.todo-press{
+    width:100%;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: royalblue;
+}
+.todo-text{
+    margin-left: 5px;
+}
