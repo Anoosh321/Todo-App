@@ -1,32 +1,87 @@
-/* body{
-    background-color: lightgray;
+body{
+    margin:10px;
+    background-color: brown;
+    overflow: hidden;
+    
+}
+.todo-Header{
+    color: black;
+    text-align: center;
+    
+}
+.todo-wrapper{
+    background-color: burlywood;
+    padding: 2%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3%;
+    box-shadow: 0px 5px 7px black;
+}
+.todo-input{
     display: flex;
     align-items: center;
     justify-content: center;
-    height:100vh;
-}
-.Todo-Container{
-    width:300px;
-    padding:10px 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightslategray;
-    border-radius: 20px;
-}
-.todo-item{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
+    
+    margin-bottom: 30px;
 }
 .todo-press{
-    width:100%;
-    padding:10px;
-    border-radius: 10px;
-    border:none;
-    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    align-content: center;
     cursor: pointer;
-    background-color: royalblue;
+    margin-left: 45%;
+    background-color: brown;
+    color: wheat;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: medium;
 }
-.todo-text{
-    margin-left: 5px;
+.Bars{
+    display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+    margin-right: 25px;
 }
- */
+.Bars label{
+    font-weight: bold;
+   margin-bottom: 10px;
+}
+.Bars input{
+    padding: 8px;
+    border:none;
+    width: 250px;
+}
+.Bars input:focus{
+    outline: 2px solid brown;
+}
+
+.list-Area {
+    display: flex;
+    align-items: center;
+    border: 1px solid brown; 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+     background-color: #f9f9f9; 
+  }
+  .list-Area-items {
+    flex: 1;
+ }
+ .icon-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding-left: 10px;
+  }
+  .icon, .check-icon {
+    font-size: 20px;
+    margin: 5px 0;
+    cursor: pointer; 
+    transition: color 0.3s;
+  }
+  
+  .icon:hover, .check-icon:hover {
+    color: #007BFF; 
+  }

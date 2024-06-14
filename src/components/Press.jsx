@@ -1,7 +1,8 @@
-/* import React from 'react';
+import React from 'react';
 
-const Press=() =>{
+const Press=({handleAddTask}) =>{
     return <button className='todo-press'
-    >Add ToDo</button>
+    onClick={handleAddTask}
+    >Add</button>
 };
-export default Press; */
+export default Press; 
