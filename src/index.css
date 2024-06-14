@@ -1,7 +1,7 @@
 body{
     margin:10px;
     background-color: brown;
-    overflow: hidden;
+    overflow:auto;
     
 }
 .todo-Header{
@@ -40,7 +40,7 @@ body{
 .Bars{
     display: flex;
     flex-direction: column;
-     align-items: flex-start;
+    align-items: flex-start;
     margin-right: 25px;
 }
 .Bars label{
@@ -56,32 +56,75 @@ body{
     outline: 2px solid brown;
 }
 
-.list-Area {
+/* .list-Area {
     display: flex;
     align-items: center;
-    border: 1px solid brown; 
+    justify-content: space-between;
+    border: 1px solid brown;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
-     background-color: #f9f9f9; 
-  }
-  .list-Area-items {
+    background-color: #f9f9f9;
+}
+
+.list-Area-items {
     flex: 1;
- }
- .icon-container {
+    margin-right: 500px;
+}
+
+.icon-container {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    padding-left: 10px;
-  }
-  .icon, .check-icon {
+    align-items: center;
+}
+
+.icon,
+.check-icon {
     font-size: 20px;
-    margin: 5px 0;
-    cursor: pointer; 
+    margin-left: 10px;
+    cursor: pointer;
     transition: color 0.3s;
-  }
-  
-  .icon:hover, .check-icon:hover {
-    color: #007BFF; 
-  }
+}
+
+.icon:hover,
+.check-icon:hover {
+    color: #007BFF;
+}
+ */
+ .list-Area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: wheat;
+}
+
+.list-Area-items {
+    flex: 1;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid brown; 
+    border-radius: 3px;
+    margin-right: 450px; 
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon,
+.check-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icon:hover,
+.check-icon:hover {
+    color: #007BFF;
+}
